@@ -2,7 +2,7 @@
   "name": "Ace Attorney Ipsum",
   "private": true,
   "scripts": {
-    "start": "gulp",
+    "start": "node index.js",
     "web": "node index.js",
     "babel-node": "babel-node"
   },
