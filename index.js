@@ -29,7 +29,7 @@ app.use(routes);
 
 app.use(logger("dev"));
 
-http.createServer(app).listen(3000, function(){
-  console.log('App skeleton started on port 3000.');
+http.createServer(app).listen(5000, function(){
+  console.log('App skeleton started on port 5000.');
 });
 
