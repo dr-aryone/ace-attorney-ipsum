@@ -1,0 +1,32 @@
+.aa-c-ipsumInput {
+  display: flex;
+  padding: spacing(half);
+  margin: 0 auto spacing(triple);
+  width: 100%;
+  max-width: breakpoint(sm);
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.aa-c-ipsumInput__input,
+.aa-c-ipsumInput__button {
+  margin: spacing(half);
+}
+
+.aa-c-ipsumInput__input {
+  flex: 1 1 rem(275px);
+}
+
+.aa-c-ipsumInput__button {
+  padding: spacing(third) spacing();
+
+  @include contra-color(color(action, light));
+
+  border: none;
+  border-radius: container(border-radius, small);
+
+  @include hovers() {
+    @include contra-color(color(action));    
+  }
+}

@@ -5,8 +5,19 @@ body {
 }
 
 body {
+  max-width: 100%;
   min-height: 100vh;
+
+  box-shadow: inset 0 0 0 1000px rgba(color(mono, light), 0.9);
+  background: url('../img/bg.png') bottom left no-repeat fixed;
+  background-size: cover;
+}
+
+main {
   padding: spacing();
+  margin: 0 auto;
+  max-width: breakpoint(max-width);
+
 }
 
 * { box-sizing: border-box; }

@@ -413,8 +413,17 @@ body {
 }
 
 body {
+  max-width: 100%;
   min-height: 100vh;
+  box-shadow: inset 0 0 0 1000px rgba(238, 238, 238, 0.9);
+  background: url("../img/bg.png") bottom left no-repeat fixed;
+  background-size: cover;
+}
+
+main {
   padding: 1rem;
+  margin: 0 auto;
+  max-width: 64rem;
 }
 
 * {
@@ -429,11 +438,11 @@ h1 {
 
 @media (min-width: 30rem) {
   h1 {
-    font-size: calc(1.87692rem + 1.87692vw);
+    font-size: calc(1.83rem + 2.03333vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h1 {
     font-size: 3.05rem;
   }
@@ -441,11 +450,11 @@ h1 {
 
 @media (min-width: 30rem) {
   h1 {
-    line-height: calc(2.34462rem + 2.34462vw);
+    line-height: calc(2.286rem + 2.54vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h1 {
     line-height: 3.81rem;
   }
@@ -459,11 +468,11 @@ h2 {
 
 @media (min-width: 30rem) {
   h2 {
-    font-size: calc(1.50154rem + 1.50154vw);
+    font-size: calc(1.464rem + 1.62667vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h2 {
     font-size: 2.44rem;
   }
@@ -471,11 +480,11 @@ h2 {
 
 @media (min-width: 30rem) {
   h2 {
-    line-height: calc(1.87692rem + 1.87692vw);
+    line-height: calc(1.83rem + 2.03333vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h2 {
     line-height: 3.05rem;
   }
@@ -489,11 +498,11 @@ h3 {
 
 @media (min-width: 30rem) {
   h3 {
-    font-size: calc(1.2rem + 1.2vw);
+    font-size: calc(1.17rem + 1.3vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h3 {
     font-size: 1.95rem;
   }
@@ -501,11 +510,11 @@ h3 {
 
 @media (min-width: 30rem) {
   h3 {
-    line-height: calc(1.50154rem + 1.50154vw);
+    line-height: calc(1.464rem + 1.62667vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h3 {
     line-height: 2.44rem;
   }
@@ -514,16 +523,16 @@ h3 {
 h4 {
   font-size: 1.248rem;
   line-height: 1.56rem;
-  margin: 0 0 0.33rem;
+  margin: 0 0 0.5rem;
 }
 
 @media (min-width: 30rem) {
   h4 {
-    font-size: calc(0.96rem + 0.96vw);
+    font-size: calc(0.936rem + 1.04vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h4 {
     font-size: 1.56rem;
   }
@@ -531,11 +540,11 @@ h4 {
 
 @media (min-width: 30rem) {
   h4 {
-    line-height: calc(1.2rem + 1.2vw);
+    line-height: calc(1.17rem + 1.3vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h4 {
     line-height: 1.95rem;
   }
@@ -544,16 +553,16 @@ h4 {
 h5 {
   font-size: 1rem;
   line-height: 1.56rem;
-  margin: 0 0 0.33rem;
+  margin: 0 0 0.5rem;
 }
 
 @media (min-width: 30rem) {
   h5 {
-    font-size: calc(0.76923rem + 0.76923vw);
+    font-size: calc(0.75rem + 0.83333vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h5 {
     font-size: 1.25rem;
   }
@@ -561,11 +570,11 @@ h5 {
 
 @media (min-width: 30rem) {
   h5 {
-    line-height: calc(1.2rem + 1.2vw);
+    line-height: calc(1.17rem + 1.3vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h5 {
     line-height: 1.95rem;
   }
@@ -574,16 +583,16 @@ h5 {
 h6 {
   font-size: 0.8rem;
   line-height: 1.56rem;
-  margin: 0 0 0.33rem;
+  margin: 0 0 0.5rem;
 }
 
 @media (min-width: 30rem) {
   h6 {
-    font-size: calc(0.61538rem + 0.61538vw);
+    font-size: calc(0.6rem + 0.66667vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h6 {
     font-size: 1rem;
   }
@@ -591,11 +600,11 @@ h6 {
 
 @media (min-width: 30rem) {
   h6 {
-    line-height: calc(1.2rem + 1.2vw);
+    line-height: calc(1.17rem + 1.3vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   h6 {
     line-height: 1.95rem;
   }
@@ -609,11 +618,11 @@ p {
 
 @media (min-width: 30rem) {
   p {
-    font-size: calc(0.61538rem + 0.61538vw);
+    font-size: calc(0.6rem + 0.66667vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   p {
     font-size: 1rem;
   }
@@ -621,11 +630,11 @@ p {
 
 @media (min-width: 30rem) {
   p {
-    line-height: calc(0.96rem + 0.96vw);
+    line-height: calc(0.936rem + 1.04vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   p {
     line-height: 1.56rem;
   }
@@ -639,11 +648,11 @@ small {
 
 @media (min-width: 30rem) {
   small {
-    font-size: calc(0.49231rem + 0.49231vw);
+    font-size: calc(0.48rem + 0.53333vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   small {
     font-size: 0.8rem;
   }
@@ -651,11 +660,11 @@ small {
 
 @media (min-width: 30rem) {
   small {
-    line-height: calc(0.96rem + 0.96vw);
+    line-height: calc(0.936rem + 1.04vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   small {
     line-height: 1.56rem;
   }
@@ -669,11 +678,11 @@ tiny {
 
 @media (min-width: 30rem) {
   tiny {
-    font-size: calc(0.39385rem + 0.39385vw);
+    font-size: calc(0.384rem + 0.42667vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   tiny {
     font-size: 0.64rem;
   }
@@ -681,11 +690,11 @@ tiny {
 
 @media (min-width: 30rem) {
   tiny {
-    line-height: calc(0.96rem + 0.96vw);
+    line-height: calc(0.936rem + 1.04vw);
   }
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 60rem) {
   tiny {
     line-height: 1.56rem;
   }
@@ -701,10 +710,62 @@ h6 {
 }
 
 a {
-  color: #ff826e;
+  color: #f3307d;
   text-decoration: none;
 }
 
 a:hover, a:focus, a:active {
-  color: #bf6253;
+  color: #aa2258;
+}
+
+.aa-c-example {
+  padding: 1rem;
+  background-color: rgba(214, 220, 232, 0.6);
+  border: 2px solid #2c7d81;
+}
+
+.aa-c-header {
+  display: flex;
+  height: 30vh;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 2px solid #30518a;
+  box-shadow: inset 0 0 0 1000px rgba(238, 238, 238, 0.75);
+  background-image: url("../img/header.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.aa-c-ipsumInput {
+  display: flex;
+  padding: 0.5rem;
+  margin: 0 auto 3rem;
+  width: 100%;
+  max-width: 30rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.aa-c-ipsumInput__input,
+.aa-c-ipsumInput__button {
+  margin: 0.5rem;
+}
+
+.aa-c-ipsumInput__input {
+  flex: 1 1 17.1875rem;
+}
+
+.aa-c-ipsumInput__button {
+  padding: 0.33rem 1rem;
+  background-color: #f76ea4;
+  color: #111;
+  border: none;
+  border-radius: 0.25rem;
+}
+
+.aa-c-ipsumInput__button:hover, .aa-c-ipsumInput__button:focus, .aa-c-ipsumInput__button:active {
+  background-color: #f3307d;
+  color: #111;
 }

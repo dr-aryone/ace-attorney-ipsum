@@ -1,8 +1,12 @@
 <html lang="en">
   {% include 'head' %}
   
-  <body class="container-fluid">
-    {% block body %}{% endblock %}
+  <body>
+    {% include 'header' %}
+
+    <main>
+      {% block body %}{% endblock %}
+    </main>
 
     {% include 'footer' %}
   </body>

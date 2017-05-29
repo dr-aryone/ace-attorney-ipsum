@@ -9,20 +9,21 @@
 
 // All color palettes
 
-$g-color--shade: 25%;
+$g-color--shade: 30%;
 
-$g-color--primary: #6ab8cc;
-$g-color--secondary: #b0ba52;
-$g-color--action: #ff826e;
+$g-color--primary: #30518a;
+$g-color--secondary: #3FB2B8;
+$g-color--action: #f3307d;
 $g-color--mono: #cbcbcb;
 
 
 // Map for storing all color variables
 $color-map: (
   primary: (
-    base: $g-color--primary,
-
+    lighter: tint($g-color--primary, 80%),
     light: tint($g-color--primary, $g-color--shade),
+
+    base: $g-color--primary,
 
     dark: shade($g-color--primary, $g-color--shade)
   ),

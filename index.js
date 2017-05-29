@@ -1,3 +1,4 @@
+"use strict"
 
 var
   http       = require("http"),
@@ -5,7 +6,8 @@ var
   express    = require("express"),
   logger     = require("morgan"),
   liquid     = require("shopify-liquid"),
-  bodyParser = require("body-parser")
+  bodyParser = require("body-parser"),
+  routes     = require('./routes');
 ;
 
 var engine = liquid({
@@ -22,22 +24,10 @@ app.set('views', ['./views', './views/partials', './views/layouts']);
 app.set('view engine', 'liquid');
 app.use("/assets", express.static(assetsPath));
 
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(routes);
 
 app.use(logger("dev"));
-
-app.use(bodyParser.urlencoded({ extended: false }));
-
-
-app.get("/", function(request, response) {
-
-  response.render("index", {
-    title: "Express Skeleton"
-  });
-});
-
-app.use(function(request, response) {
-  response.status(404).render("404");
-});
 
 http.createServer(app).listen(3000, function(){
   console.log('App skeleton started on port 3000.');

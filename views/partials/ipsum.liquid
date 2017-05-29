@@ -1,0 +1,11 @@
+{% if ipsum %}
+  {% for paragraph in ipsum %}
+    <p>
+      {{ paragraph }}
+    </p>
+  {% endfor %}
+{% else %}
+  <p>
+    No ipsum text provided!
+  </p>
+{% endif %}
