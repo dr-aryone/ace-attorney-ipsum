@@ -258,7 +258,7 @@ var AA_quotes =[ "'When something smells, it's usually the Butz.' In the 23 year
 "See this? It's my Attorney's Badge.",
 "(You're the first one who's actually been interested in mine, believe me.)",
 "Its composition is mostly silver. The gold plating is flaking a bit.",
-"She analyzed it. Scientifically...)",
+"She analyzed it. Scientifically...",
 "There doesn't appear to be any corrosion due to sulfides. I'd give you $50.00 for it.",
 "Sorry, but it's not for sale. Yet...",
 "They kicked me out of Criminal Affairs...",
