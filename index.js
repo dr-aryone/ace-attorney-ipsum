@@ -29,7 +29,6 @@ app.use(routes);
 
 app.use(logger("dev"));
 
-http.createServer(app).listen(5000, function(){
-  console.log('App skeleton started on port 5000.');
+http.createServer(app).listen(process.env.PORT || 3000, function(){
+  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
 });
-
