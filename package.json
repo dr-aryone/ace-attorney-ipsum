@@ -1,5 +1,5 @@
 {
-  "name": "Ace Attorney Ipsum",
+  "name": "ace-attorney-ipsum",
   "private": true,
   "scripts": {
     "start": "node index.js",
