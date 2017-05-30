@@ -4,6 +4,7 @@
   "scripts": {
     "start": "node index.js",
     "web": "node index.js",
+    "postinstall": "gulp assets",
     "babel-node": "babel-node"
   },
   "engines" : {
@@ -20,7 +21,9 @@
     "liquid": "^1.2.1",
     "lodash": "^4.17.4",
     "morgan": "^1.8.1",
-    "shopify-liquid": "^1.7.9",
+    "shopify-liquid": "^1.7.9"
+  },
+  "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
     "babelify": "^7.3.0",
     "browser-sync": "^2.18.8",
@@ -45,6 +48,5 @@
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0"
   },
-  "devDependencies": {},
   "license": "MIT"
 }

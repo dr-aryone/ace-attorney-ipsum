@@ -181,6 +181,13 @@ gulp.task('nodemon-babel', runCommand('nodemon --use-strict --exec npm run babel
 
 // Tasks that run multiple other tasks, including default //
 
+gulp.task('assets', function(callback) {
+  runSequence(
+    ['browserify-full', 'sass'],
+    callback
+  )
+});
+
 gulp.task('default', function(callback) {
   runSequence(
     ['browserify-full', 'sass'],
