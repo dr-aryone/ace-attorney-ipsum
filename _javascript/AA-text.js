@@ -1,4 +1,6 @@
-var AA_quotes =[ "'When something smells, it's usually the Butz.' In the 23 years I've known him, it's usually been true.",
+"use strict"
+
+const AA_quotes =[ "'When something smells, it's usually the Butz.' In the 23 years I've known him, it's usually been true.",
 "Proof enough for you, Mr. Sahwit? Or should I say... Mr. Did It!",
 "(TELL. THE. TRUTH.)",
 "(LIE. LIKE. A DOG.)",
@@ -1177,7 +1179,7 @@ var AA_quotes =[ "'When something smells, it's usually the Butz.' In the 23 year
 "I'm just a lowly detective so... I'm not sure what to do with that, other than arrest it!",
 "I'm just a lowly security guard so... I'm not sure what to do with that, other than guard it!",
 "...Is this... yet another batch of fresh flowers...?",
-"The ones that come with a card attached every month like clockwork for you? Yup. Speaking of that! Let's see what's on the card this month, sir! 'All will be resolved. --Wendy'",
+"The ones that come with a card attached every month like clockwork for you? Yup. Speaking of that! Let's see what's on the card this month, sir! 'All will be resolved.'",
 "(Oh, Ms. Irony. How painful are thy thorns.)",
 "Wendy... Isn't that the name of that old lady with the whiny voice that's stalk--",
 "That's enough, Detective. You need not remind me further. *shudder*",
