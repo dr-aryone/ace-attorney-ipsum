@@ -7,14 +7,10 @@ const random_quote = () => quotes[Math.floor(Math.random() * quotes.length)]
 const random_paragraph = () => {
   let
     num = Math.floor(Math.random() * (6 - 3 + 1) + 3),
-    lines = '',
-    counter = 0
+    lines = ''
   ;
 
-  while ( counter < num ) {
-    lines += (random_quote() + ' ');
-    counter++;
-  }
+  for (var i = 0; i < num; i++) { lines += (random_quote() + ' '); }
 
   return lines;
 }
